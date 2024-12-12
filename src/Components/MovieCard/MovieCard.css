@@ -1,0 +1,78 @@
+.movie-card {
+  color: white;
+  padding: 30px;
+  max-width: 600px;
+  margin: 15% 100px 0;
+  border-radius: 10px;
+}
+
+.movie-info {
+  text-align: left;
+}
+
+.movie-info img {
+  width: 100%;
+}
+
+.movie-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.movie-details {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  margin: 5px 0 20px 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.play-button,
+.list-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-button {
+  background-color: #1f80e0;
+  color: white;
+}
+
+.play-button:hover {
+  background-color: #1565c0;
+}
+
+.list-button {
+  background-color: #444;
+  color: white;
+}
+
+.list-button:hover {
+  background-color: #666;
+}
+
+.movie-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.read-more {
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}

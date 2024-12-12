@@ -1,0 +1,52 @@
+.pelicula-container {
+  padding: 20px;
+  margin-top: 5%;
+}
+
+.pelicula-category {
+  margin-bottom: 40px;
+}
+
+.pelicula-carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+.pelicula-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.pelicula-card {
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 190px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
+}
+
+.pelicula-card:hover {
+  border-radius: 8px;
+  transform: translateY(-10px);
+}
+
+.pelicula-poster {
+  width: 100%;
+  height: auto;
+}
+
+.pelicula-title {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.pelicula-category h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: white;
+}

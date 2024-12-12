@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+
+  background-color: transparent;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  gap: 4rem;
+}
+
+.nav-link {
+  color: #e8e8e8;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #fff;
+  color: #000;
+  font-weight: 500;
+  box-shadow: 0 0 10px rgba(221, 216, 216, 0.8);
+  transition: all 0.5s ease;
+}
+
+.right-side {
+  display: flex;
+  gap: 1rem;
+}
+
+.subscriptions-button,
+.join-prime-button {
+  background-color: transparent;
+  color: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.subscriptions-button:hover,
+.join-prime-button:hover {
+  background-color: #5e1d5a;
+  color: white;
+}
+
+.join-prime-button {
+  background-color: #b91db1;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: color 0.3s ease;
+}
+
+.join-prime-button:hover {
+  background-color: #5e1d5a;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  transform: 20s;
+  box-shadow: 0 0 10px rgba(221, 216, 216, 0.8);
+}
+.search-button,
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.search-input {
+  width: 200px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: white;
+  outline: none;
+}
+
+.search-input:focus {
+  border: none;
+  outline: none;
+}
+
+.search-results {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-result-item {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.search-result-item:hover {
+  background-color: #f0f0f0;
+}
+
+.result-image {
+  width: 80px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.result-info {
+  flex-grow: 1;
+}
+
+.result-info h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.result-info p {
+  margin: 5px 0 0;
+  font-size: 0.9rem;
+  color: #555;
+}
